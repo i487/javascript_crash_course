@@ -1,0 +1,112 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 3px solid burlywood;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.btn {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.reset {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.title {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(8, 107, 107);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    .click {
+        padding: 8px 12px;
+        border: none;
+        outline: none;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 6px;
+    }
+    .reset {
+        padding: 8px 12px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 6px;
+    }
+    .input {
+        padding: 8px 12px;
+        font-size: 20px;
+        color: black;
+        border: 1px solid rgb(134, 134, 145);
+        outline: none;
+        border-radius: 8px;
+        margin: auto;
+    }
+}
+.result {
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__img {
+        max-width: 200px;
+        width: 100%;
+        padding: 8px;
+        border-radius: 20px;
+        object-fit: fill;
+    }
+
+
+}
+#result__text {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: cyan;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    border: 1px solid black;
+    .image {
+        max-width: 200px;
+        width: 100%;
+        &:hover {
+            box-shadow: 0 10px 50px rgba(7, 30, 100, 1);
+        }
+    }
+}

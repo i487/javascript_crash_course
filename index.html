@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript_crash_course</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <!-- challenge 1: Age in Days -->
+    <div class="container">
+        <h2 class="title">Challenge 1. Your age in days </h2>
+        <div class="buttons">
+           
+            <input type="text" class="input" id="birthYear" placeholder="birth year" >
+            <input type="text" class="input" id="currentYear" placeholder="current year">
+            <button class="click" onclick="ageInDays()">Click me</button>
+            <button class="reset" onclick="reset()">Reset</button>
+        </div>
+        <div class="result" id="result">
+            
+        </div>
+    </div>
+    <!-- Challenge 2: Cat generator  -->
+    <div class="container">
+        <h2 class="title">Challenge 2. Cat generator </h2>
+        <button class="btn" id="catGen" onclick="catGenerator()">Generate image</button>
+        <button class="reset" onclick="reset()">Reset</button>
+        <div class="result" id="resultCat">
+        </div>
+    </div>
+
+    <!-- Challenge 3: rock, sscissors, paper game -->
+
+    <div class="container">
+        <h2 class="title">Challenge 3: Rock, scissors, paper game</h2>
+        <div class="wrapper" id="wrapper">
+            <img class="image" id="rock" src="./img/rock.jfif" alt="" onclick="rspGame(this)">
+            <img class="image" id="scissors" src="./img/scissors.jpg" alt="" onclick="rspGame(this)">
+            <img class="image" id="paper" src="./img/paper.jpg" alt="" onclick="rspGame(this)">
+        </div>
+    </div>
+
+
+
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
